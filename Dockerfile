@@ -1,6 +1,6 @@
 # Dockerfile
 # base image
-FROM node:16.16.0-buster
+FROM node:18-buster
 
 # set environment variables
 ARG NEXT_PUBLIC_API_URL
